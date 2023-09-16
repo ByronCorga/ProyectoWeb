@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Recording</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script>src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"</script>
+    </head>
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mapa Verde</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Noticias</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Calendario Ambiental</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Reciclaje</a></li>
+                    
+                    <li><a class="dropdown-item" href="#">Compostaje</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Cuidado del agua</a></li>
+                    <li><a class="dropdown-item" href="#">Cuidado de la energía</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+    <body>
+      <div class="banner">
+        <img src="../images/banner10.jpg" class="banner-contact" alt="banner matiz verde con imagen de pinos">
+        <h2>Contáctanos</h2>
+      </div>
+
+      <section class="formulario" id="section-recording">
+            <div class="form">
+              <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" name="Nombre">
+                  <div id="nameHelp" class="form-text">Nombre y apellido</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                  <div id="emailHelp" class="form-text">No se compartirá su correo electrónico</div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="seleccion" class="form-label">Motivo</label>
+                  <select id="disabledSelect" class="form-select">
+                    <option>-- Inscripciones --</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="button-submit">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+
+              </form>
+            </div>
+      </section>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

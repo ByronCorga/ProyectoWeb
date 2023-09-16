@@ -6,4 +6,4 @@
 ## Funcionalidades
 
 1. Enlace a páginas internas de los "servicios" más destacados del sitio web
-2. 
+2. Validación de las entradas a los formularios
