@@ -76,6 +76,7 @@ p {
 }
 
 .Mission {
+  padding: 100px ;
   height: 522px;
   background-color: #6CB2D9;
   color: white;
@@ -85,46 +86,100 @@ p {
 
 }
 
-.Mission>h2 {
-
+.text-h2 >h2 {
   color: white;
-  text-decoration: underline white;
   font-size: 35px;
+  
   font-weight: bold;
-
 
 }
 
-.Mission>p {
+.Mission > p {
   position: relative;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 01%;
+  margin-top: 20px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
 
+}
+.rayado{
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  background: linear-gradient(0deg, transparent 0%, transparent 75%, white 75%, white 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 8px; /* Ajusta el grosor del subrayado */
+  background-position: 0 120%; /* Ajusta la separación del subrayado del texto */
+  display: inline-block;
+ 
+}
+.text-h2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
 }
 
 .card-row {
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px;
+  gap: 30px; /* Espacio entre las tarjetas */
+  margin-top: -120px
 
 
 
-}
+} 
 
 .card {
+  text-align: center;
   width: 370px;
   height: 260px;
-  margin: 20px;
-  margin-top: -150px;
+  justify-content: center;
+  align-items: center;
+  
 
 }
 
+.card-title{
+ font-size: 23;
+ font-weight: bold;
+
+}
 .card-text {
-  font-size: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.card > img{
+  margin-top: 20px ;
+ max-width: 100px;
+ max-height: 100px;
+ 
+
+}
+
+.h2-title-vission{
+ position: absolute ;
+ font-size:35px;
+ align-items: center;
+ margin-top:300px;
+ justify-content:center;
+ text-align:center;
+
+}
+.main{
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del flujo a vertical */
+  align-items: center; /* Centra horizontalmente el contenido */
+  text-align: center;
+  
 }
 
 /*-------------------------BANNER---------------------------*/
