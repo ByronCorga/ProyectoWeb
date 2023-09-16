@@ -103,5 +103,45 @@ justify-content: center;
  }
  .card-text{
     font-size:10px;
+ }
 
+ /*-------------------------BANNER---------------------------*/
+.banner{ /*Clase banner, para ocupar con el resto de las paginas*/
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.banner h2{
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 35%;
+  left: 30%;
+}
+
+.banner-contact{
+  height: 460px;
+}
+
+ /*------------------------CONTACT FORM------------------------*/
+
+ #section-recording{
+  display: flex;
+  justify-content: center;
+  background-color: #71A35A;
+ }
+
+ .form{
+  background-color: yellow;
+  width: 50%;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 10px;
+ }
+
+ .button-submit{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
  }
