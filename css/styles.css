@@ -1,118 +1,141 @@
-.rectangule-one{
-    width: 100%;
-    height: 50px;
-    background-color: #C89B6F;
+#header-logo {
+  padding-right: 10px;
 }
 
-.carousel-inner{
-    max-height: 700px ;
-    overflow: hidden;
+#header-logo > img {
+  width: 100px;
 }
+
+.header-items > li {
+  padding: 0px 15px 0px 15px;
+}
+
+.btn-login {
+  background-color: #4BC248;
+  color: white;
+}
+
+.rectangule-one {
+  width: 100%;
+  height: 50px;
+  background-color: #C89B6F;
+}
+
+.carousel-inner {
+  max-height: 700px;
+  overflow: hidden;
+}
+
 .carousel-item {
-    height: 700px;
+  height: 700px;
 }
 
-.carousel-item > img {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.3); 
+.carousel-item>img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
 }
+
 #banner-text {
-    display:flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-    padding: 20px;
-    text-align: center;
-    color: white;
-    width: 80%;
-  }
-  
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  #banner-text > h2, p {
-    text-align: start;
-    font-weight: bold;
-    font-size: 55px;
-  }
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 80%;
+}
 
-  #banner-text >  p {
-    text-align: start;
-    font-weight: lighter;
-    font-size: 20px ;
-  }
 
-  #banner-text >  button {
-    left: 0;
-    width: 200px;
-    height: 50px ;
-    align-items:self-start; 
-    position: absolute; 
-    border:solid 1 black;
-    border-radius: 20px ;
-    background-color: #71A35A;
-    color:white
+#banner-text>h2,
+p {
+  text-align: start;
+  font-weight: bold;
+  font-size: 55px;
+}
 
-  }
+#banner-text>p {
+  text-align: start;
+  font-weight: lighter;
+  font-size: 20px;
+}
 
-.Mission{
-    height: 522px;
-    background-color: #6CB2D9;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+#banner-text>button {
+  left: 0;
+  width: 200px;
+  height: 50px;
+  align-items: self-start;
+  position: absolute;
+  border: solid 1 black;
+  border-radius: 20px;
+  background-color: #71A35A;
+  color: white
+}
+
+.Mission {
+  height: 522px;
+  background-color: #6CB2D9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
-.Mission > h2{
-    
-   color:white ;
-   text-decoration: underline white;    
-   font-size: 35px;
-   font-weight: bold;
+
+.Mission>h2 {
+
+  color: white;
+  text-decoration: underline white;
+  font-size: 35px;
+  font-weight: bold;
 
 
 }
-.Mission > p{
-    position:relative; 
-align-items: center;
-text-align: center;
-justify-content: center;
- margin-top:01%;
- font-size:18px;
- font-weight: bold;
- 
- }
- 
- .card-row{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
+
+.Mission>p {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 01%;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 
 
- }
 
- .card{
-    width:370px ;
-    height:260px ;
-    margin: 20px;
-    margin-top: -150px    ;
-    
- }
- .card-text{
-    font-size:10px;
- }
+}
 
- /*-------------------------BANNER---------------------------*/
-.banner{ /*Clase banner, para ocupar con el resto de las paginas*/
+.card {
+  width: 370px;
+  height: 260px;
+  margin: 20px;
+  margin-top: -150px;
+
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+/*-------------------------BANNER---------------------------*/
+.banner {
+  /*Clase banner, para ocupar con el resto de las paginas*/
   overflow: hidden;
   position: relative;
   width: 100%;
 }
 
-.banner h2{
+.banner h2 {
   position: absolute;
   color: white;
   font-size: 50px;
@@ -120,28 +143,34 @@ justify-content: center;
   left: 30%;
 }
 
-.banner-contact{
+.banner-contact {
   height: 460px;
 }
 
- /*------------------------CONTACT FORM------------------------*/
+/*------------------------CONTACT FORM------------------------*/
 
- #section-recording{
+#section-recording {
   display: flex;
   justify-content: center;
   background-color: #71A35A;
- }
+}
 
- .form{
+.form {
   background-color: yellow;
   width: 50%;
   margin: 100px;
   padding: 50px;
   border-radius: 10px;
- }
+}
 
- .button-submit{
+.button-submit {
   margin-top: 20px;
   display: flex;
   justify-content: center;
- }
+}
+
+/* LOGIN CSS */
+
+.login-btn > button{
+  width: 100%;
+}
