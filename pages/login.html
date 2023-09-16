@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Iniciar Sesión</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script>src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"</script>
+    </head>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#" id="header-logo">
+                <img src="/images/header-logo.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-items">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mapa Verde</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Calendario Ambiental</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Reciclaje</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">Compostaje</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Cuidado del agua</a></li>
+                      <li><a class="dropdown-item" href="#">Cuidado de la energía</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <button class="btn btn-success btn-login" type="submit" href="/pages/login.html">Iniciar Sesión</button>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <body>
+      <div class="banner">
+        <img src="/images/banner10.jpg" class="banner-contact" alt="banner matiz verde con imagen de pinos">
+        <h2>Inicia sesión</h2>
+      </div>
+
+      <section class="login-form" id="login">
+            <div class="form">
+              <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre de usuario</label>
+                  <input placeholder="Robert De Niro" type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" name="Nombre">
+                </div>
+
+                <div class="mb-3">
+                  <label for="pass" class="form-label">Contraseña</label>
+                  <input placeholder="taxidriver" type="password" class="form-control" id="excamplePass" aria-describedby="password" name="pass">
+                </div>
+
+                <div class="login-btn">
+                  <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+                </div>
+
+              </form>
+            </div>
+      </section>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
