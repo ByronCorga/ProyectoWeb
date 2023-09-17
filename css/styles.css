@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
 #header-logo {
   padding-right: 10px;
 }
 
-#header-logo > img {
+#header-logo>img {
   width: 100px;
 }
 
 
-.header-items > li {
+.header-items>li {
   padding: 0px 15px 0px 15px;
 }
 
@@ -80,7 +81,7 @@ p {
 }
 
 .Mission {
-  padding: 100px ;
+  padding: 100px;
   height: 522px;
   background-color: #6CB2D9;
   color: white;
@@ -90,7 +91,7 @@ p {
 
 }
 
-.text-h2 >h2 {
+.text-h2>h2 {
   color: white;
   font-size: 35px;
   font-family: 'Inter', sans-serif;
@@ -98,7 +99,7 @@ p {
 
 }
 
-.Mission > p {
+.Mission>p {
   position: relative;
   align-items: center;
   text-align: center;
@@ -109,7 +110,8 @@ p {
   font-weight: normal;
 
 }
-.rayado{
+
+.rayado {
   color: white;
   font-size: 35px;
   font-family: 'Inter', sans-serif;
@@ -117,16 +119,19 @@ p {
   font-weight: bold;
   background: linear-gradient(0deg, transparent 0%, transparent 75%, white 75%, white 100%);
   background-repeat: no-repeat;
-  background-size: 100% 8px; /* Ajusta el grosor del subrayado */
-  background-position: 0 120%; /* Ajusta la separación del subrayado del texto */
+  background-size: 100% 8px;
+  /* Ajusta el grosor del subrayado */
+  background-position: 0 120%;
+  /* Ajusta la separación del subrayado del texto */
   display: inline-block;
- 
+
 }
-.text-h2{
+
+.text-h2 {
   display: flex;
   align-content: center;
   justify-content: center;
-  
+
 }
 
 .card-row {
@@ -134,12 +139,10 @@ p {
   display: flex;
   justify-content: center;
   padding: 20px;
-  gap: 30px; /* Espacio entre las tarjetas */
+  gap: 30px;
+  /* Espacio entre las tarjetas */
   margin-top: -120px
-
-
-
-} 
+}
 
 .card {
   text-align: center;
@@ -147,16 +150,17 @@ p {
   height: 260px;
   justify-content: center;
   align-items: center;
-  
+
 
 }
 
-.card-title{
- font-size: 23;
- font-weight: bold;
- font-family: 'Inter', sans-serif;
+.card-title {
+  font-size: 23;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
 
 }
+
 .card-text {
   font-family: 'Inter', sans-serif;
   text-align: center;
@@ -165,102 +169,128 @@ p {
   margin-bottom: 10px;
 }
 
-.card > img{
-  margin-top: 20px ;
- max-width: 100px;
- max-height: 100px;
- 
+.card>img {
+  margin-top: 20px;
+  max-width: 100px;
+  max-height: 100px;
+
 
 }
 
-.h2-title-vission{
+.h2-title-vission {
   font-family: 'Inter', sans-serif;
- margin-top: 50px;
- font-weight: bold;
- font-size:48px;
- align-items: center;
- justify-content:center;
- text-align:center;
-
-}
-.main-top{
-  display: flex;
-  flex-direction: column; /* Cambia la dirección del flujo a vertical */
-  align-items: center; /* Centra horizontalmente el contenido */
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 48px;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  
+
 }
 
-.tittle-news-main{
+.main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.tittle-news-main {
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-size:48px;
-  justify-content:center;
-  margin-top:80px ;
-  text-align:center; 
+  font-size: 48px;
+  justify-content: center;
+  margin-top: 80px;
+  text-align: center;
 
 }
-.row-news{
 
-  width: 100%;
+.row-news {
+  width: 90%;
   display: flex;
   justify-content: center;
-  padding: 30px;
-  gap: 30px; 
-  margin:30px;
+  padding: 20px;
+  gap: 30px;
+  margin: 30px;
 }
-.vinculacion-medio{
+
+.vinculacion-medio {
   display: flex;
- width:100%;
- height:344px;
- background-color:#6FA456;
- align-items: center;
- 
+  width: 100%;
+  height: 344px;
+  background-color: #6FA456;
+  align-items: center;
 }
 
 .vinculacion-medio > img {
- max-width: 400px;
- max-height: 250px;
- border:solid black 1px ;
- border-radius: 20px;
- filter: brightness(0.7   );
- margin-left:250px  ;
- 
-
-}
-.vinculacion-medio > h2{
-color: white;  
-font-family: 'Inter', sans-serif;
-font-size:48px;
-font-weight: normal;
-margin-left:40px  ;
-
+  margin-left: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+  filter: brightness(0.7);
 }
 
-.py-3{
- background-color: #3F3F3F; 
- display: flex;
- 
+.vinculacion-medio > h2 {
+  margin-left: 100px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font: size 10px;
 }
-.py-3 > img {
-  width:150px ;
-  height: 100px;
+
+/**************************FOOTER**************************/
+#footer{
+  background-color: #3F3F3F;
+  width: 101%;
 }
-.py-3 > h2 {
- color: white;
- font-family: 'Inter', sans-serif;
- font-size: 48px;
- margin: 20px;
- margin-left: 350px;
+
+.col-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
 }
-.info-foot > h5{
-  margin-left: 500px;
-  color:white;
+
+.logo-foot{
+  width: 250px;
 }
-.row-foot{
- display: flex;
- margin-left: 80%;
+
+.material-symbols-outlined{
+  color: white;
+  margin-right: 15px;
 }
+
+.col-services{
+  padding: 40px;
+  width: 30%;
+}
+
+.col-services > h5{
+  color: white;
+}
+
+.col-contact{
+  padding: 40px;
+  width: 30%;
+}
+
+.col-contact > h5{
+  color: white
+}
+
+.text-muted{
+  color: white !important;
+}
+
+.nav-item{
+  display: flex;
+}
+
+.logo-ubi{
+  width: 30px;
+  margin-right: 10px;
+}
+
+
 /*-------------------------BANNER---------------------------*/
 .banner {
   /*Clase banner, para ocupar con el resto de las paginas*/
@@ -289,6 +319,12 @@ margin-left:40px  ;
   background-color: #71A35A;
 }
 
+.recording-tittle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
 .form {
   background-color: yellow;
   width: 50%;
@@ -305,6 +341,6 @@ margin-left:40px  ;
 
 /* LOGIN CSS */
 
-.login-btn > button{
+.login-btn>button {
   width: 100%;
 }
