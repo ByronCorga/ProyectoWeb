@@ -176,6 +176,7 @@ p {
 .h2-title-vission{
   font-family: 'Inter', sans-serif;
  margin-top: 50px;
+ font-weight: bold;
  font-size:48px;
  align-items: center;
  justify-content:center;
@@ -239,6 +240,7 @@ margin-left:40px  ;
 .py-3{
  background-color: #3F3F3F; 
  display: flex;
+ 
 }
 .py-3 > img {
   width:150px ;
@@ -250,6 +252,14 @@ margin-left:40px  ;
  font-size: 48px;
  margin: 20px;
  margin-left: 350px;
+}
+.info-foot > h5{
+  margin-left: 500px;
+  color:white;
+}
+.row-foot{
+ display: flex;
+ margin-left: 80%;
 }
 /*-------------------------BANNER---------------------------*/
 .banner {
