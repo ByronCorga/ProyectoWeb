@@ -441,7 +441,7 @@ input,
 
 
 
-/*--------------KNEW--------------*/
+/*--------------NEWS--------------*/
 .new-section{
   display: flex;
   padding: 50px;
@@ -501,4 +501,12 @@ input,
   margin: 20px;
   border-radius: 12px;
   background-color: yellow;
+}
+
+
+/*--------------MAP--------------*/
+
+.map-section {
+  width: 101%;
+  padding: 30px
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mapa</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"   />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html" id="header-logo">
+        <img src="../Assets/images/header-logo.png">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-items">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mapa Verde</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/knew.html">Noticias</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Calendario Ambiental</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Reciclaje</a></li>
+
+              <li><a class="dropdown-item" href="#">Compostaje</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Cuidado del agua</a></li>
+              <li><a class="dropdown-item" href="#">Cuidado de la energía</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button class="btn btn-success btn-login" type="submit" href="../pages/login.html">Iniciar Sesión</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div class="banner">
+    <img src="../Assets/images/banner10.jpg" class="banner-contact" alt="banner matiz verde con imagen de pinos">
+    <h2>Mapa Verde</h2>
+  </div>
+
+
+  <iframe class="map-section" src="https://puntoslimpios.mma.gob.cl/" height="1000" width="100%"></iframe>
+
+</body>
+
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5" id="footer">
+
+  <div class="col-logo mb-6">
+    <a href="../index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+      <img src="../Assets/images/header-logo.png" alt="Logo de green lamp" class="logo-foot">
+    </a>
+  </div>
+
+
+  <div class="col-services mb-6">
+    <h5>Servicios</h5>
+    <ul class="nav flex-column ">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reciclaje</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Compostaje</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cuidado del agua</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cuidado de la energía</a></li>
+    </ul>
+  </div>
+
+  <div class="col-contact mb-6">
+    <h5>Contáctanos</h5>
+    <ul class="nav flex-column ">
+      <li class="nav-item mb-2">
+        <span class="material-symbols-outlined">location_on</span>
+        <a href="https://www.google.com/maps/place/Edificio+Isabel+Brown+Caces+PUCV/@-33.044748,-71.6127147,18.96z/data=!4m6!3m5!1s0x9689e0da0b53aa97:0x928c11c78e044b81!8m2!3d-33.0446465!4d-71.6124632!16s%2Fg%2F11bzwpt8jq?entry=ttu"
+          class="nav-link p-0 text-muted">Av. Brasil 2241, Valparaíso, Chile.</a>
+      </li>
+
+      <li class="nav-item mb-2">
+        <span class="material-symbols-outlined">mail</span>
+        <a href="mailto:info@pucv.cl" class="nav-link p-0 text-muted">info@pucv.cl</a>
+      </li>
+
+      <li class="nav-item mb-2">
+        <span class="material-symbols-outlined">phone</span>
+        <a href="#" class="nav-link p-0 text-muted">+569 333 333</a>
+      </li>
+
+    </ul>
+  </div>
+</footer>
+
+</html>
