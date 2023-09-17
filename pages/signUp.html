@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Iniciar Sesión</title>
+  <title>Registrarse</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
 <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand" href="#home" id="header-logo">
+      <a class="navbar-brand" href="../index.html" id="header-logo">
         <img src="../Assets/images/header-logo.png">
       </a>
 
@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-items">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
 
           <li class="nav-item">
@@ -64,7 +64,7 @@
             </ul>
           </li>
         </ul>
-        <button class="btn btn-success btn-login" type="submit" href="/pages/login.html">Iniciar Sesión</button>
+        <button class="btn btn-success btn-login" type="submit" href="../pages/login.html">Iniciar Sesión</button>
       </div>
     </div>
   </nav>
@@ -73,28 +73,33 @@
 <body>
   <div class="banner">
     <img src="../Assets/images/banner10.jpg" class="banner-contact" alt="banner matiz verde con imagen de pinos">
-    <h2>Inicia sesión</h2>
+    <h2>Regístrate</h2>
   </div>
 
-  <section class="login-section" id="login">
-    <div class="login-popup" id="myForm">
-      <form class="form-container">
-        <h1>¡Bienvenida!</h1>
-    
-        <label for="email"><b>Correo Electrónico</b></label>
-        <input type="text" placeholder="ejemplo@tudominio.com" name="email" required>
-    
-        <label for="psw"><b>Contraseña</b></label>
-        <input type="password" placeholder="Introduce tu contraseña" name="psw" required>
-    
-        <button type="submit" class="btn btn-log btn-primary">Iniciar Sesión</button>
-        <button type="submit" class="btn btn-log btn-success">Continuar con Google</button>
-      </form>
-      <div class="create-account">
-        <a href="/pages/signUp.html"><h6>¡Crea una cuenta aquí!</h6></a>
-      </div>
+  <div class="row create-form">
+    <div class="form-center">
+        <form>
+            <h1>¡Crea tu cuenta aquí!</h1>
+
+            <label><b>Nombre</b></label>
+            <input type="text" placeholder="Violeta Flores" name="name" required>
+
+            <label for="email"><b>Correo Electrónico</b></label>
+            <input type="text" placeholder="ejemplo@tudominio.com" name="email" required>
+
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Introduce tu contraseña" name="psw" required>
+
+            <label for="psw"><b>Reescribe tu contraseña</b></label>
+            <input type="password" placeholder="Introduce tu contraseña" name="psw2" required>
+
+            <label><b>Nombre usuario</b></label>
+            <input type="text" placeholder="florDeLoto" name="user" required>
+
+            <button type="submit" class="btn login">Crear Cuenta</button>
+        </form>
     </div>
-  </section>
+</div>
 
   <script src="" async defer></script>
 </body>
