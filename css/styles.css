@@ -35,7 +35,7 @@
   height: 700px;
 }
 
-.carousel-item>img {
+.carousel-item > img {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.3);
@@ -55,20 +55,20 @@
 }
 
 
-#banner-text>h2,
+#banner-text > h2,
 p {
   text-align: start;
   font-weight: bold;
   font-size: 55px;
 }
 
-#banner-text>p {
+#banner-text > p {
   text-align: start;
   font-weight: lighter;
   font-size: 20px;
 }
 
-#banner-text>button {
+#banner-text > button {
   left: 0;
   width: 200px;
   height: 50px;
@@ -91,7 +91,7 @@ p {
 
 }
 
-.text-h2>h2 {
+.text-h2 > h2 {
   color: white;
   font-size: 35px;
   font-family: 'Inter', sans-serif;
@@ -99,7 +99,7 @@ p {
 
 }
 
-.Mission>p {
+.Mission > p {
   position: relative;
   align-items: center;
   text-align: center;
@@ -282,10 +282,9 @@ p {
   margin-right: 10px;
 }
 
-
 /*-------------------------BANNER---------------------------*/
+
 .banner {
-  /*Clase banner, para ocupar con el resto de las paginas*/
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -405,9 +404,7 @@ input,
     margin-top: 15px
 }
 
-
-/*-------------- CREATE ACCOUNT  */
-
+/*-------------- CREATE ACCOUNT ---------------- */
 .create-form {
   width: 100%;
   display: flex;
@@ -445,27 +442,35 @@ input,
 
 
 /*--------------KNEW--------------*/
-.knew-section{
+.new-section{
   display: flex;
   padding: 50px;
 }
 
-.knews{
+.news{
   background-color: #4BC248;
   width: 100%;
 }
 
-.knew{
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+.new{
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #6CB2D9;
 }
 
-.knew > p{
+.new > p{
   display: block;
-  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.new > h3{
+  display: block;
+  margin-top: 15px;
+  text-align: center;
 }
 
 /*noticias: https://laderasur.com/articulo/collares-rastreadores-en-fauna-nativa-cuales-son-los-pros-y-contras-de-esta-practica/*/
