@@ -510,3 +510,10 @@ input,
   width: 101%;
   padding: 30px
 }
+
+
+/* validation */
+.error-text {
+  color: red; 
+  padding-bottom: 20px;
+}
