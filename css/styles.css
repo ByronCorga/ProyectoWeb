@@ -514,7 +514,14 @@ input,
   padding: 30px
 }
 
-/*------------------CalendarWorld---------*/
+
+/* validation */
+.error-text {
+  color: red; 
+  padding-bottom: 20px;
+}
+
+/*----CALENDAR */
 
 .bannerCalendar {
   overflow: hidden;
