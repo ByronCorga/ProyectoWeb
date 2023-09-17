@@ -527,7 +527,7 @@ input,
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin-bottom:90px;
+ 
 }
 
 .bannerCalendar > h2 {
@@ -536,4 +536,10 @@ input,
   font-size: 50px;
   top: 35%;
   left: 30%;
+}
+
+#Imagescalendar{
+  
+  filter: brightness(1);
+
 }
