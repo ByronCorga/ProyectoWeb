@@ -210,6 +210,12 @@ p {
   background-color: #71A35A;
 }
 
+.recording-tittle{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
 .form {
   background-color: yellow;
   width: 50%;

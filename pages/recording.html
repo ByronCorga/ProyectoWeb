@@ -70,16 +70,20 @@
 
       <section class="formulario" id="section-recording">
             <div class="form">
-              <form class="needs-validation" novalidate>
+              <form id="form-recording">
+                <div class="recording-tittle">
+                  <h3>¿En qué podemos ayudarte?</h3>
+                </div>
+
                 <div class="mb-3">
                   <label for="nombre" class="form-label">Nombre</label>
-                  <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" name="Nombre">
+                  <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nombre" name="Nombre">
                   <div id="nameHelp" class="form-text">Nombre y apellido</div>
                 </div>
 
                 <div class="mb-3">
                   <label for="email" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="tucorreo@mail.com" name="email">
                   <div id="emailHelp" class="form-text">No se compartirá su correo electrónico</div>
                 </div>
 
@@ -92,7 +96,7 @@
                 
                 <div class="form-group">
                   <label for="mensaje">Mensaje</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control" id="Textarea1" placeholder="Mensaje" rows="3"></textarea>
                 </div>
 
                 <div class="button-submit">
