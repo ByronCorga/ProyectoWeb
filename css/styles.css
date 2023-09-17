@@ -120,9 +120,7 @@ p {
   background: linear-gradient(0deg, transparent 0%, transparent 75%, white 75%, white 100%);
   background-repeat: no-repeat;
   background-size: 100% 8px;
-  /* Ajusta el grosor del subrayado */
   background-position: 0 120%;
-  /* Ajusta la separación del subrayado del texto */
   display: inline-block;
 
 }
@@ -131,7 +129,6 @@ p {
   display: flex;
   align-content: center;
   justify-content: center;
-
 }
 
 .card-row {
@@ -140,7 +137,6 @@ p {
   justify-content: center;
   padding: 20px;
   gap: 30px;
-  /* Espacio entre las tarjetas */
   margin-top: -120px
 }
 
@@ -150,8 +146,6 @@ p {
   height: 260px;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .card-title {
@@ -169,12 +163,10 @@ p {
   margin-bottom: 10px;
 }
 
-.card>img {
+.card > img {
   margin-top: 20px;
   max-width: 100px;
   max-height: 100px;
-
-
 }
 
 .h2-title-vission {
@@ -237,7 +229,7 @@ p {
   font: size 10px;
 }
 
-/**************************FOOTER**************************/
+/*--------------------------FOOTER---------------------*/
 #footer{
   background-color: #3F3F3F;
   width: 101%;
@@ -343,4 +335,58 @@ p {
 
 .login-btn>button {
   width: 100%;
+}
+
+/*--------------KNEW--------------*/
+.knew-section{
+  display: flex;
+  padding: 50px;
+}
+
+.knews{
+  background-color: #4BC248;
+  width: 100%;
+}
+
+.knew{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #6CB2D9;
+}
+
+.knew > p{
+  display: block;
+  font-size: 15px;
+}
+
+/*noticias: https://laderasur.com/articulo/collares-rastreadores-en-fauna-nativa-cuales-son-los-pros-y-contras-de-esta-practica/*/
+
+#huemul-collar{
+  display: flex;
+  width: 100%;
+}
+
+.sidebar{
+  width: 40%;
+  background-color: red;
+}
+
+.searching{
+
+  background-color: rgb(212, 212, 212);
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.searching > label{
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.recent-knew{
+  margin: 20px;
+  border-radius: 12px;
+  background-color: yellow;
 }
