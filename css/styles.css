@@ -1,107 +1,392 @@
-.rectangule-one{
-    width: 100%;
-    height: 50px;
-    background-color: #C89B6F;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+#header-logo {
+  padding-right: 10px;
 }
 
-.carousel-inner{
-    max-height: 700px ;
-    overflow: hidden;
+#header-logo>img {
+  width: 100px;
 }
+
+
+.header-items>li {
+  padding: 0px 15px 0px 15px;
+}
+
+.btn-login {
+  background-color: #4BC248;
+  color: white;
+}
+
+.rectangule-one {
+  width: 100%;
+  height: 50px;
+  background-color: #C89B6F;
+}
+
+.carousel-inner {
+  max-height: 700px;
+  overflow: hidden;
+}
+
 .carousel-item {
-    height: 700px;
+  height: 700px;
 }
 
-.carousel-item > img {
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.3); 
+.carousel-item>img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
 }
+
 #banner-text {
-    display:flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-    padding: 20px;
-    text-align: center;
-    color: white;
-    width: 80%;
-  }
-  
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  #banner-text > h2, p {
-    text-align: start;
-    font-weight: bold;
-    font-size: 55px;
-  }
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 80%;
+}
 
-  #banner-text >  p {
-    text-align: start;
-    font-weight: lighter;
-    font-size: 20px ;
-  }
 
-  #banner-text >  button {
-    left: 0;
-    width: 200px;
-    height: 50px ;
-    align-items:self-start; 
-    position: absolute; 
-    border:solid 1 black;
-    border-radius: 20px ;
-    background-color: #71A35A;
-    color:white
+#banner-text>h2,
+p {
+  text-align: start;
+  font-weight: bold;
+  font-size: 55px;
+}
 
-  }
+#banner-text>p {
+  text-align: start;
+  font-weight: lighter;
+  font-size: 20px;
+}
 
-.Mission{
-    height: 522px;
-    background-color: #6CB2D9;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+#banner-text>button {
+  left: 0;
+  width: 200px;
+  height: 50px;
+  align-items: self-start;
+  position: absolute;
+  border: solid 1 black;
+  border-radius: 20px;
+  background-color: #71A35A;
+  color: white
+}
+
+.Mission {
+  padding: 100px;
+  height: 522px;
+  background-color: #6CB2D9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
-.Mission > h2{
-    
-   color:white ;
-   text-decoration: underline white;    
-   font-size: 35px;
-   font-weight: bold;
 
+.text-h2>h2 {
+  color: white;
+  font-size: 35px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
 
 }
-.Mission > p{
-    position:relative; 
-align-items: center;
-text-align: center;
-justify-content: center;
- margin-top:01%;
- font-size:18px;
- font-weight: bold;
- 
- }
- 
- .card-row{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
+
+.Mission>p {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.rayado {
+  color: white;
+  font-size: 35px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 40px;
+  font-weight: bold;
+  background: linear-gradient(0deg, transparent 0%, transparent 75%, white 75%, white 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 8px;
+  background-position: 0 120%;
+  display: inline-block;
+
+}
+
+.text-h2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  margin-top: -120px
+}
+
+.card {
+  text-align: center;
+  width: 370px;
+  height: 260px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 23;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.card-text {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.card > img {
+  margin-top: 20px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.h2-title-vission {
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 48px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.tittle-news-main {
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  justify-content: center;
+  margin-top: 80px;
+  text-align: center;
+
+}
+
+.row-news {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  margin: 30px;
+}
+
+.vinculacion-medio {
+  display: flex;
+  width: 100%;
+  height: 344px;
+  background-color: #6FA456;
+  align-items: center;
+}
+
+.vinculacion-medio > img {
+  margin-left: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+  filter: brightness(0.7);
+}
+
+.vinculacion-medio > h2 {
+  margin-left: 100px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font: size 10px;
+}
+
+/*--------------------------FOOTER---------------------*/
+#footer{
+  background-color: #3F3F3F;
+  width: 101%;
+}
+
+.col-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.logo-foot{
+  width: 250px;
+}
+
+.material-symbols-outlined{
+  color: white;
+  margin-right: 15px;
+}
+
+.col-services{
+  padding: 40px;
+  width: 30%;
+}
+
+.col-services > h5{
+  color: white;
+}
+
+.col-contact{
+  padding: 40px;
+  width: 30%;
+}
+
+.col-contact > h5{
+  color: white
+}
+
+.text-muted{
+  color: white !important;
+}
+
+.nav-item{
+  display: flex;
+}
+
+.logo-ubi{
+  width: 30px;
+  margin-right: 10px;
+}
 
 
- }
+/*-------------------------BANNER---------------------------*/
+.banner {
+  /*Clase banner, para ocupar con el resto de las paginas*/
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
 
- .card{
-    width:370px ;
-    height:260px ;
-    margin: 20px;
-    margin-top: -150px    ;
-    
- }
- .card-text{
-    font-size:10px;
+.banner h2 {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 35%;
+  left: 30%;
+}
 
- }
+.banner-contact {
+  height: 460px;
+}
+
+/*------------------------CONTACT FORM------------------------*/
+
+#section-recording {
+  display: flex;
+  justify-content: center;
+  background-color: #71A35A;
+}
+
+.recording-tittle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.form {
+  background-color: yellow;
+  width: 50%;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.button-submit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* LOGIN CSS */
+
+.login-btn>button {
+  width: 100%;
+}
+
+/*--------------KNEW--------------*/
+.knew-section{
+  display: flex;
+  padding: 50px;
+}
+
+.knews{
+  background-color: #4BC248;
+  width: 100%;
+}
+
+.knew{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #6CB2D9;
+}
+
+.knew > p{
+  display: block;
+  font-size: 15px;
+}
+
+/*noticias: https://laderasur.com/articulo/collares-rastreadores-en-fauna-nativa-cuales-son-los-pros-y-contras-de-esta-practica/*/
+
+#huemul-collar{
+  display: flex;
+  width: 100%;
+}
+
+.sidebar{
+  width: 40%;
+  background-color: red;
+}
+
+.searching{
+
+  background-color: rgb(212, 212, 212);
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.searching > label{
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.recent-knew{
+  margin: 20px;
+  border-radius: 12px;
+  background-color: yellow;
+}
