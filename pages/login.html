@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 </head>
 
 <header>
@@ -29,23 +31,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-items">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="contact-us.html">Contáctanos</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/pages/maps.html">Mapa Verde</a>
+            <a class="nav-link" href="maps.html">Mapa Verde</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/pages/news.html">Noticias</a>
+            <a class="nav-link" href="news.html">Noticias</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Calendario Ambiental</a>
+            <a class="nav-link" href="world_calendar.html">Calendario Ambiental</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -64,7 +66,9 @@
             </ul>
           </li>
         </ul>
-        <button class="btn btn-success btn-login" type="submit" href="/pages/login.html">Iniciar Sesión</button>
+        <a href="/pages/login.html">
+          <button class="btn btn-success btn-login" type="submit">Iniciar Sesión</button>
+        </a>
       </div>
     </div>
   </nav>
@@ -77,18 +81,18 @@
   </div>
 
   <section class="login-section" id="login">
-    <div class="login-popup" id="myForm">
-      <form class="form-container">
+    <div class="login-popup">
+      <form class="form-container" id="login-form" novalidate>
         <h1>¡Bienvenida!</h1>
     
-        <label for="email"><b>Correo Electrónico</b></label>
-        <input type="text" placeholder="ejemplo@tudominio.com" name="email" required>
-    
+        <label for="email"><b>Correo Electrónico o Nombre usuario</b></label>
+        <input type="text" placeholder="ejemplo@tudominio.com | FlordeLoto" name="user" required>
+        <br>
         <label for="psw"><b>Contraseña</b></label>
-        <input type="password" placeholder="Introduce tu contraseña" name="psw" required>
+        <input type="password" placeholder="Introduce tu contraseña" name="password" required>
     
         <button type="submit" class="btn btn-log btn-primary">Iniciar Sesión</button>
-        <button type="submit" class="btn btn-log btn-success">Continuar con Google</button>
+        <button class="btn btn-log btn-secondary disabled">Continuar con Google</button>
       </form>
       <div class="create-account">
         <a href="/pages/signUp.html"><h6>¡Crea una cuenta aquí!</h6></a>
@@ -96,7 +100,7 @@
     </div>
   </section>
 
-  <script src="" async defer></script>
+  <script src="/js/validate-login.js" async defer></script>
 </body>
 
 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5" id="footer">

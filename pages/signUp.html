@@ -8,11 +8,14 @@
   <title>Registrarse</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"   />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <header>
@@ -33,19 +36,19 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="contact-us.html">Contáctanos</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/pages/maps.html">Mapa Verde</a>
+            <a class="nav-link" href="maps.html">Mapa Verde</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/pages/news.html">Noticias</a>
+            <a class="nav-link" href="news.html">Noticias</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Calendario Ambiental</a>
+            <a class="nav-link" href="world_calendar.html">Calendario Ambiental</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -64,7 +67,9 @@
             </ul>
           </li>
         </ul>
-        <button class="btn btn-success btn-login" type="submit" href="../pages/login.html">Iniciar Sesión</button>
+        <a href="login.html">
+          <button class="btn btn-success btn-login" type="submit">Iniciar Sesión</button>
+        </a>
       </div>
     </div>
   </nav>
@@ -78,30 +83,46 @@
 
   <div class="row create-form">
     <div class="form-center">
-        <form>
-            <h1>¡Crea tu cuenta aquí!</h1>
+      <form id="form-signup" novalidate>
+        <h1>¡Crea tu cuenta aquí!</h1>
+        
+        <label for="nombre"><b>Nombre</b></label>
+        <input type="text" placeholder="VioletaFlores" name="name" required>
 
-            <label><b>Nombre</b></label>
-            <input type="text" placeholder="Violeta Flores" name="name" required>
+        <label for="email"><b>Correo Electrónico</b></label>
+        <input type="text" placeholder="ejemplo@tudominio.com" name="email" required>
+        <br>
 
-            <label for="email"><b>Correo Electrónico</b></label>
-            <input type="text" placeholder="ejemplo@tudominio.com" name="email" required>
+        <label for="psw"><b>Contraseña</b></label>
+        <input id="password" type="password" placeholder="Introduce tu contraseña" name="password">
+        <br>
 
-            <label for="psw"><b>Contraseña</b></label>
-            <input type="password" placeholder="Introduce tu contraseña" name="psw" required>
+        <label><b>RUT</b></label>
+        <input id="rut" type="text" placeholder="18888888-K" name="rut">
+        <br>
 
-            <label for="psw"><b>Reescribe tu contraseña</b></label>
-            <input type="password" placeholder="Introduce tu contraseña" name="psw2" required>
+        <label><b>Región</b></label>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Selecciona tu región</option>
+          <option value="1">Valparaíso</option>
+          <option value="2">Santiago</option>
+          <option value="3">Antofagasta</option>
+        </select>
 
-            <label><b>Nombre usuario</b></label>
-            <input type="text" placeholder="florDeLoto" name="user" required>
+        <label for="psw"><b>Reescribe tu contraseña</b></label>
+        <input id="password2" type="password" placeholder="Introduce tu contraseña" name="password2">
+        <br>
 
-            <button type="submit" class="btn login">Crear Cuenta</button>
-        </form>
+        <label><b>Nombre usuario</b></label>
+        <input type="text" placeholder="florDeLoto" name="user" required>
+        <br>
+
+        <button type="submit" class="btn login">Crear Cuenta</button>
+      </form>
     </div>
-</div>
+  </div>
 
-  <script src="" async defer></script>
+  <script src="/js/validate-singup.js" async defer></script>
 </body>
 
 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5" id="footer">
