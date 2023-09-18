@@ -550,3 +550,39 @@ input,
   filter: brightness(1);
 
 }
+.space-activity{
+ width:100% ;
+ height:631px ;
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background-image:url(../Assets/images/Image-Animal.jpg) ;
+
+}
+.title-calendar {
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ color: #e8e8e8;
+ text-decoration:underline #dddfdd solid ;
+}
+.btns-calendar {
+ margin: 10px;
+ display: flex;
+
+}
+#card-btns{
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ background-color: #69c513;
+}
+
+.btn-info{
+  border-radius: 20px;
+  background-color:#8F4C0E;
+  margin-left:10px;
+  color: white;
+
+}
