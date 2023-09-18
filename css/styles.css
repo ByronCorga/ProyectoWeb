@@ -458,7 +458,6 @@ input,
 }
 
 .news{
-  background-color: #4BC248;
   width: 100%;
 }
 
@@ -467,7 +466,10 @@ input,
   padding-right: 140px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #6CB2D9;
+}
+
+.new > img{
+  width: 100%;
 }
 
 .new > p{
