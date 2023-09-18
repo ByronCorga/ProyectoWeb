@@ -84,14 +84,13 @@
 
   <section class="formulario" id="section-recording">
     <div class="form contact-form">
-      <form id="form-signup" class="space-y-4">
+      <form id="form-contact" class="space-y-4">
         <h1>¡Contáctanos!</h1>
         <div>
           <label class="label">
             <span class="text-base label-text">Nombre</span>
           </label>
-          <input name="name" id="name" type="text" placeholder="Ingresa tu nombre"
-            class="w-full input input-bordered" />
+          <input name="name" id="name" type="text" placeholder="Ingresa tu nombre" class="w-full input input-bordered" />
         </div>
         <div>
           <label class="label">
@@ -120,27 +119,13 @@
           <label for="mensaje">Mensaje</label>
           <textarea class="form-control" id="Textarea1" placeholder="Tu Mensaje" rows="3"></textarea>
         </div>
-        <!-- <div style="display: flex; justify-content: center; padding: 20px;">
-          <div id="html_element"></div>
-        </div> -->
         <div class="button-submit">
           <button id="submit-btn" type="submit" class="btn btn-primary">Enviar Mensaje</button>
         </div>
     </div>
   </section>
-  <!-- <script type="text/javascript">
-    var onloadCallback = function () {
-      grecaptcha.render('html_element', {
-        'sitekey': '6LfomjEoAAAAAGrBIDoliXB2Ux7ZxRhhKCan3Qvz'
-      });
-    };
-  </script> -->
   <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfomjEoAAAAAGrBIDoliXB2Ux7ZxRhhKCan3Qvz"></script>
-
-  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async>
-  </script>
-
-
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async></script>
   <script src="/js/validate-contact.js" async defer></script>
 
 </body>

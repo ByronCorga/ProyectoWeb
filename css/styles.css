@@ -332,11 +332,12 @@ p {
   justify-content: center;
 }
 
-#form-signup > h1 {
+#form-contact > h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
+
 /*------------------------LOGIN------------------------*/
 
 .login-section {
