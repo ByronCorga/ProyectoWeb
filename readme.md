@@ -3,6 +3,8 @@
 - Fabian Molina Torrealba
 - Byron Cortés Gajardo
 
+La versión final de este proyecto es la que se encuentran en la rama main, usada como producción
+
 ## Funcionalidades
 
 1. Calendario ambiental que señala días importantes con respecto al medio ambiente
