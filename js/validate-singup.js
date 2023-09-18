@@ -1,16 +1,11 @@
 $(document).ready(function () {
-    $("#form-contact").on('submit', e => {
+    $("#form-signup").on('submit', e => {
       e.preventDefault();
     }).validate({
         rules: {
             name: {
                 required: true,
                 minlength: 3
-            },
-            phone: {
-                required: false,
-                minlength: 9,
-                maxlength: 9
             },
             email: {
                 required: true,
@@ -25,7 +20,7 @@ $(document).ready(function () {
                 minlength: 8,
                 equalTo: "#password"
             },
-            tyc: {
+            user: {
                 required: true
             }
         },
@@ -33,10 +28,6 @@ $(document).ready(function () {
             name: {
                 required: "El nombre es requerido",
                 minlength: "El nombre debe tener al menos 3 caracteres"
-            },
-            phone: {
-                minlength: "El teléfono debe tener 9 dígitos",
-                maxlength: "El teléfono debe tener 9 dígitos"
             },
             email: {
                 required: "El email es requerido",
@@ -51,8 +42,8 @@ $(document).ready(function () {
                 minlength: "La contraseña debe tener al menos 8 caracteres",
                 equalTo: "Las contraseñas deben coincidir"
             },
-            tyc: {
-                required: ""
+            user: {
+                required: "El usuario es requerido"
             }
         },
         errorPlacement: function (error, element) {
@@ -66,8 +57,8 @@ $(document).ready(function () {
             form.reset();
             Swal.fire({
                 icon: 'success',
-                title: 'Envío exitoso',
-                text: 'El formulario se ha enviado correctamente.',
+                title: 'Registro Exitoso',
+                text: 'Hemos creado tu cuenta correctamente.',
             });
         }
     });
